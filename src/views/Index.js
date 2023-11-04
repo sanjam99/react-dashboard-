@@ -1,22 +1,4 @@
-/*!
-
-=========================================================
-* Argon Dashboard React - v1.2.3
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import { useState } from "react";
-// node.js library that concatenates classes (strings)
 import classnames from "classnames";
 // javascipt plugin for creating charts
 import Chart from "chart.js";
@@ -150,7 +132,7 @@ const Index = (props) => {
               <CardHeader className="border-0">
                 <Row className="align-items-center">
                   <div className="col">
-                    <h3 className="mb-0">Page visits</h3>
+                    <h3 className="mb-0">Mess options visits</h3>
                   </div>
                   <div className="col text-right">
                     <Button
@@ -175,46 +157,46 @@ const Index = (props) => {
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">/argon/</th>
+                    <th scope="row">Veg thali</th>
                     <td>4,569</td>
                     <td>340</td>
                     <td>
-                      <i className="fas fa-arrow-up text-success mr-3" /> 46,53%
+                      <i className="fas fa-arrow-up text-success mr-3" /> 46.53%
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">/argon/index.html</th>
+                    <th scope="row">Non-veg thali</th>
                     <td>3,985</td>
                     <td>319</td>
                     <td>
                       <i className="fas fa-arrow-down text-warning mr-3" />{" "}
-                      46,53%
+                      46.53%
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">/argon/charts.html</th>
+                    <th scope="row">Full Time Mess</th>
                     <td>3,513</td>
                     <td>294</td>
                     <td>
                       <i className="fas fa-arrow-down text-warning mr-3" />{" "}
-                      36,49%
+                      36.49%
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">/argon/tables.html</th>
+                    <th scope="row">Half Time Mess</th>
                     <td>2,050</td>
                     <td>147</td>
                     <td>
-                      <i className="fas fa-arrow-up text-success mr-3" /> 50,87%
+                      <i className="fas fa-arrow-up text-success mr-3" /> 50.87%
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">/argon/profile.html</th>
+                    <th scope="row">Weekend Mess</th>
                     <td>1,795</td>
                     <td>190</td>
                     <td>
                       <i className="fas fa-arrow-down text-danger mr-3" />{" "}
-                      46,53%
+                      46.53%
                     </td>
                   </tr>
                 </tbody>
