@@ -12,7 +12,6 @@ const Login = () => {
                 <a
                   className="font-weight-bold ml-1"
                   href="https://github.com/sanjam99"
-                  target="_blank"
                 >
                   Create by sanjam99
                 </a>
